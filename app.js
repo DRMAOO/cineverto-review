@@ -5,7 +5,7 @@ let session=null,task=null,progress=null,activeSound='A',playbackMode='independe
 const expectedSyncPlays=new WeakSet(),expectedSyncPauses=new WeakSet(),expectedSeekTargets=new WeakMap();
 const videoSlots=['source','A','B','C'],hiddenVideoSlots=new Set();
 const language={zh:'中文',en:'英文'};
-const pagesApiOrigin = "https://spell-successful-engineer-dramatically.trycloudflare.com";
+const pagesApiOrigin = "https://cineverto-review-api.cineverto-drmaoo.workers.dev";
 const pagesDeviceKey = 'cineverto-review:' + (window.location.origin === pagesApiOrigin
   ? pagesApiOrigin : window.location.pathname.replace(/index\.html$/, ''));
 let pagesSession = '';
